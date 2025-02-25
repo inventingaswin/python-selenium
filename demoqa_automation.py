@@ -11,34 +11,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
 
-# driver = webdriver.Chrome()
-# driver.maximize_window()
-# driver.get("https://www.ajio.com/")
-# driver.implicitly_wait(3)
-# men = driver.find_element(By.XPATH, '//li[@data-test="li-MEN"]')
-# ac = ActionChains(driver)
-# ac.move_to_element(men).perform()
-# romper = driver.find_element(By.XPATH, '//li[@class="catg inactive-text"]//a[@Text(), "BRANDS"]')
-# ac.move_to_element(men).perform()
-# levis = driver.find_element(By.XPATH, '//div[@class="column column-4"]//div[@class="items"]//a[@Text(), "LEVIS"]')
-# levis.click()
-
-# from selenium import webdriver
-# from selenium.webdriver.support.ui import Select
-# import time
-# driver = webdriver.Chrome()
-# driver.get("https://www.selenium.dev/selenium/docs/api/java/index.html")
-# driver.switch_to.frame("packageListFrame")
-# driver.find_element(By.LINK_TEXT, "org.openqa.selenium.opera").click()
-# driver.switch_to.default_content()
-# driver.switch_to.frame("packageFrame")
-# driver.find_element(By.LINK_TEXT, "OperaOptions").click()
-# driver.switch_to.default_content()
-# driver.switch_to.frame("classFrame")
-# driver.find_element(By.XPATH, '/html/body/div[1]/ul/li[4]/a').click()
-# time.sleep(4)
-
-
 @pytest.mark.usefixtures('initialize_driver')
 class GetLink:
     """Class to automate browser"""
