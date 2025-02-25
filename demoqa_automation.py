@@ -11,7 +11,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
 
-@pytest.mark.usefixtures('initialize_driver')
 class GetLink:
     """Class to automate browser"""
     driver = webdriver.Chrome()
